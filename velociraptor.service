@@ -8,7 +8,7 @@ Restart=always
 RestartSec=120
 LimitNOFILE=20000
 Environment=LANG=en_US.UTF-8
-ExecStart=/usr/local/bin/velociraptor --config /etc/velociraptor.config.yaml frontend -v
+ExecStart=/usr/local/bin/velociraptor --config /etc/velociraptor/velociraptor.config.yaml frontend -v
 
 [Install]
 WantedBy=multi-user.target
