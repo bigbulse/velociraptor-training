@@ -4,7 +4,7 @@
 #>
 # Copy powershell.exe to home dir
 $file = "C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe"
-$dir = "C:\Users\blais\SYS320\SYS320-SP22\"
+$dir = "C:\Users\public\"
 Copy-Item $file -Destination $dir
 
 # Random file name creation
